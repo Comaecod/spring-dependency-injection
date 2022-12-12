@@ -1,7 +1,9 @@
 package com.comaecod.SpringDI.controllers;
 
 import com.comaecod.SpringDI.services.GreetingService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConstructorInjectedController {
     private GreetingService greetingService;
 
